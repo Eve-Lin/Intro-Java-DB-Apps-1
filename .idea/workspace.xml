@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65cb1c48-da79-4f2a-b973-b3be2c814bd6" name="Default Changelist" comment="" />
+    <list default="true" id="65cb1c48-da79-4f2a-b973-b3be2c814bd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JdbcIntro1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcIntro1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JdbcIntro1/demo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JdbcIntro1/demo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +41,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="minions_db: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="minions_db: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="minions: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -44,10 +56,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+            <state relative-caret-position="391">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#removeVillainById#0;class#Main#0" />
+                <element signature="method#changeTownNames#0;class#Main#0" />
+                <element signature="method#checkIfCountryExistsByName#0;class#Main#0" />
+                <element signature="method#printAllMinionNames#0;class#Main#0" />
+                <element signature="method#increaseMinionsAge#0;class#Main#0" />
+                <element signature="method#increaseAgeWithStoredProcedure#0;class#Main#0" />
                 <element signature="method#getEntityNameById#0;class#Main#0" />
                 <element signature="method#checkIfEntityExists#0;class#Main#0" />
                 <element signature="method#getVillainsNamesAndCountOfMinions#0;class#Main#0" />
@@ -57,12 +75,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://b312a5a8-0c43-467d-b80c-5ca0561e03be/schema/minions_db/table/minions.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="24" />
+        <entry file="das://b312a5a8-0c43-467d-b80c-5ca0561e03be/schema/minions_db/table/minions">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://b312a5a8-0c43-467d-b80c-5ca0561e03be/schema/minions_db/table/minions.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -74,6 +97,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -84,7 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
+    <option name="x" value="201" />
+    <option name="y" value="-13" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -93,29 +120,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JdbcIntro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcIntro1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcIntro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcIntro1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JdbcIntro1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JdbcIntro1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -123,9 +139,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581963017775" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582137546419" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-8.0.19/mysql-connector-java-8.0.19.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -178,17 +194,20 @@
       <workItem from="1581790933577" duration="720000" />
       <workItem from="1581855889231" duration="6017000" />
       <workItem from="1581959214609" duration="3741000" />
+      <workItem from="1582050142879" duration="5176000" />
+      <workItem from="1582055412840" duration="593000" />
+      <workItem from="1582132306658" duration="4534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10478000" />
+    <option name="totallyTimeSpent" value="20781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24803768" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -197,8 +216,8 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32405892" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32405892" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -209,15 +228,15 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.4823718" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven-2 Build" order="5" weight="0.32967034" />
+      <window_info anchor="right" id="Maven-2 Build" order="5" weight="0.3290469" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3290469" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -236,17 +255,29 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b312a5a8-0c43-467d-b80c-5ca0561e03be/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://b312a5a8-0c43-467d-b80c-5ca0561e03be/schema/minions_db/table/minions.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://b312a5a8-0c43-467d-b80c-5ca0561e03be/schema/minions_db/table/towns">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#removeVillainById#0;class#Main#0" />
+            <element signature="method#changeTownNames#0;class#Main#0" />
+            <element signature="method#checkIfCountryExistsByName#0;class#Main#0" />
+            <element signature="method#printAllMinionNames#0;class#Main#0" />
+            <element signature="method#increaseMinionsAge#0;class#Main#0" />
+            <element signature="method#increaseAgeWithStoredProcedure#0;class#Main#0" />
+            <element signature="method#getEntityNameById#0;class#Main#0" />
+            <element signature="method#checkIfEntityExists#0;class#Main#0" />
+            <element signature="method#getVillainsNamesAndCountOfMinions#0;class#Main#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -257,18 +288,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getEntityNameById#0;class#Main#0" />
-            <element signature="method#checkIfEntityExists#0;class#Main#0" />
-            <element signature="method#getVillainsNamesAndCountOfMinions#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="das://b312a5a8-0c43-467d-b80c-5ca0561e03be/schema/minions_db/table/minions.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -347,7 +368,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-8.0.19</last-edited>
+          <last-edited>mysql-connector-java-8.0.191</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
